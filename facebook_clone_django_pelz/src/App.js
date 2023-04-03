@@ -1,10 +1,11 @@
 
 import './App.css';
+import Register from './Pages/Register';
 
 function App() {
   return (
-    <div className="App text-red-600">
-      COLLECT
+    <div className="App">
+      <Register/>
     </div>
   );
 }
