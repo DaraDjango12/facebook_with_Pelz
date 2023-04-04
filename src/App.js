@@ -1,11 +1,15 @@
 
 import './App.css';
-import Login from './Pages/Login';
+import RightSideBar from './components/RightSideBar';
+// import AddPost from './components/AddPost';
+// import Login from './Pages/Login';
 
 function App() {
   return (
     <div>
-      <Login />
+      {/* <Login /> */}
+      {/* <AddPost /> */}
+      <RightSideBar />
     </div>
   );
 }
