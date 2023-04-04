@@ -1,11 +1,10 @@
 
 import './App.css';
-import Register from './Pages/Register';
 
 function App() {
   return (
-    <div className="App">
-    
+    <div className="App text-red-600">
+      Oluwapelumi
     </div>
   );
 }
