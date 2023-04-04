@@ -1,10 +1,11 @@
 
 import './App.css';
+// import Login from './Pages/Login';
 
 function App() {
   return (
-    <div className="App text-red-600">
-      Oluwapelumi
+    <div>
+      {/* <Login /> */}
     </div>
   );
 }
