@@ -1,4 +1,4 @@
-
+import Register from './Pages/Register';
 import './App.css';
 import Login from './Pages/Login';
 
