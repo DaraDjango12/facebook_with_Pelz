@@ -7,6 +7,7 @@ const Register = () => {
         <div class=''>
         <div className='flex p-4'>
             <div>
+
             <p>Sign Up</p>
             <small>Its quick and easy</small>
 
@@ -18,6 +19,19 @@ const Register = () => {
         </div>
         <hr />
         </div>
+        <div className='flex'>
+          <input className='' placeholder='Firstname'/>
+          <input placeholder='Surname'/>
+
+        </div>
+        <input type="text" placeholder='Mobile Number or email address' className='' />
+        <input type="password" placeholder='New Password' className='' />
+
+        <div></div>
+
+
+
+
 
 
 
