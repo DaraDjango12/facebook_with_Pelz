@@ -10,7 +10,7 @@ const Register = () => {
             <p>Sign Up</p>
             <small>Its quick and easy</small>
 
-            koleyewon
+          
 
             </div>
             <AiOutlineClose/>
