@@ -1,6 +1,6 @@
 
 import './App.css';
-import RightSideBar from './components/RightSideBar';
+// import RightSideBar from './components/RightSideBar';
 // import AddPost from './components/AddPost';
 // import Login from './Pages/Login';
 
@@ -9,7 +9,7 @@ function App() {
     <div>
       {/* <Login /> */}
       {/* <AddPost /> */}
-      <RightSideBar />
+      {/* <RightSideBar /> */}
     </div>
   );
 }
