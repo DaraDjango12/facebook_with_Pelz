@@ -11,17 +11,17 @@ const Login = () => {
       </div>
 
       <div className="md:w-[100%] md:flex md:items-center md:justify-center md:mr-[70px]">
-        <div className="bg-white mx-[50px] h-[67%] md:h-[57%] mt-6 rounded-md flex flex-col gap-4 p-4 shadow-[0_3px_10px_rgb(0,0,0,0.2)] md:w-[400px]">
+        <div className="bg-white mx-[50px] h-[67%] md:h-[57%] mt-6 rounded-xl flex flex-col gap-4 p-4 shadow-[0_3px_10px_rgb(0,0,0,0.2)] md:w-[400px]">
           <h3 className="text-center text-xl mt-2 md:hidden">
             Log in to Facebook
           </h3>
           <input
-            className="bg-white border px-4 py-[12px] rounded-md mt-2"
+            className="bg-white px-4 py-[12px] rounded-md mt-2 border"
             type="text"
             placeholder="Email address or phone number"
           />
           <input
-            className="bg-white border px-4 py-[12px] rounded-md mt-2"
+            className="bg-white border focus:border-[#1877f2] px-4 py-[12px] rounded-md mt-2"
             type="password"
             placeholder="Password"
           />
