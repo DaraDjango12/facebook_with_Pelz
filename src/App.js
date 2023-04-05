@@ -1,12 +1,14 @@
-import Register from './Pages/Register';
 import './App.css';
-import Login from './Pages/Login';
-import TopBar from './components/TopBar';
+// import RightSideBar from './components/RightSideBar';
+// import AddPost from './components/AddPost';
+// import Login from './Pages/Login';
+// import TopBar from './components/TopBar';
+
 
 function App() {
   return (
     <div>
-      <TopBar/>
+      {/* <TopBar/> */}
     </div>
   );
 }
