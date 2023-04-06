@@ -1,4 +1,5 @@
 import './App.css';
+import Timeline from './components/Timeline'
 // import RightSideBar from './components/RightSideBar';
 // import AddPost from './components/AddPost';
 // import Login from './Pages/Login';
@@ -8,7 +9,8 @@ import './App.css';
 function App() {
   return (
     <div>
-      {/* <TopBar/> */}
+      
+      
     </div>
   );
 }
