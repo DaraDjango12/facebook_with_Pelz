@@ -8,7 +8,7 @@ const Profile = () => {
         <div
           style={{
             backgroundImage:
-              "url('https://scontent.flos10-1.fna.fbcdn.net/v/t39.30808-6/312411458_8190029407736796_3631423790675758174_n.jpg?stp=dst-jpg_p320x320&_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeEeH-_OLiujpRf6adZITMup9wcYJgzFMZf3BxgmDMUxl1cS4vF7j8c5TLfiB9fjfvC0s3vmm_9ZI-VTDmB6g2dQ&_nc_ohc=SUaDc3ejBbkAX8qJiU3&_nc_ht=scontent.flos10-1.fna&oh=00_AfCofFJePA8EMRQyjAcncqnSTZheCSojF9HwaE-HN81PaA&oe=64338C11')",
+              "url('https://t3.ftcdn.net/jpg/01/52/61/36/240_F_152613619_kaNluqI3oUjvIhEQDcDfuksXknNJ45lf.jpg')",
           }}
           className="relative bg-cover bg-center w-full h-[220px] lg:w-[70%] lg:[180px] lg:mx-auto lg:h-[350px] rounded-r-md rounded-l-md"
         ></div>

@@ -7,8 +7,16 @@ import { FaUserFriends } from "react-icons/fa";
 
 const RightSideBar = () => {
   return (
-    <div className="bg-[#242526] h-screen w-[25%] overflow-y-scroll">
+    <div className="bg-[#242526] w-[28.8%] hover:overflow-y-scroll">
+      <div className="w-[65%]">
       <div className="text-white font-semibold flex pt-4 items-center mx-4">
+        <div className="w-[25px] h-[25px] rounded-full">
+          <FaUserFriends className="w-[25px] h-[25px]" size={35} />
+        </div>
+        <h5 className="ml-4">Home</h5>
+      </div>
+      <div className="text-white font-semibold flex pt-4 items-center mx-4">
+        
         <div
           style={{
             backgroundImage:
@@ -18,6 +26,7 @@ const RightSideBar = () => {
         ></div>
         <h5 className="ml-4">Oluwapelumi Adetoye</h5>
       </div>
+      <div className="my-6 mx-4 bg-[#3a3b3c] h-[0.1px] mb-2"></div>
       <div className="text-white font-semibold flex pt-4 items-center mx-4">
         <div className="w-[25px] h-[25px] rounded-full">
           <FaUserFriends className="w-[25px] h-[25px]" size={35} />
@@ -38,7 +47,7 @@ const RightSideBar = () => {
       </div>
       <div className="text-white font-semibold flex pt-4 items-center mx-4">
         <img
-          className="text-red-600 rounded-full w-[35px] w-[25px] h-[25px]"
+          className="text-white rounded-full w-[25px] h-[25px]"
           src="./Assets/market.png"
           alt=""
         />
@@ -60,7 +69,7 @@ const RightSideBar = () => {
         </div>
         <h5 className="ml-4">See more</h5>
       </div>
-      <hr className="mt-8 ml-4" />
+      <div className="my-6 mx-4 bg-[#3a3b3c] h-[0.1px] mb-2"></div>
       <h5 className="ml-4 mt-4 text-gray-400 text-xl">Your shortcuts</h5>
 
       <div className="text-white font-semibold flex pt-4 items-center mx-4">
@@ -106,7 +115,10 @@ const RightSideBar = () => {
         ></div>
         <h5 className="ml-4">Oluwapelumi Adetoye</h5>
       </div>
-      <div className="ml-4 text-gray-400 mt-6 text-sm">Privacy  · Terms  · Advertising  · Ad Choices   · Cookies  ·   · Meta © 2023</div>
+
+      <div className="pl-4 text-gray-400 pt-6 text-sm bg-[#242526]">Privacy  · Terms  · Advertising  · Ad Choices   · Cookies  ·   · Meta © 2023</div>
+      </div>
+      
     </div>
   );
 };
