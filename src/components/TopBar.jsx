@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 const TopBar = () => {
   return (
     <div>
-      <div className="h-[70px] gap-2 bg-[#242526] flex w-[100vw] justify-between md:w-full items-center px-4 fixed z-[999]">
+      <div className="w-full px-4 h-[70px] gap-2 bg-[#242526] flex w-[100vw] justify-between md:w-full items-center fixed z-[999]">
         <Link to="/"><p className="text-white text-2xl lg:text-3xl font-bold">facebook</p></Link>
         <div className="w-[8%] sm:w-[40%] bg-[#3a3b3c] rounded-full h-10 flex justify-center items-center">
           <BsSearch className="text-[#b0b3b8] pl-2" size={25} />
           <input
-            className="h-10 rounded-full w-[90%] pl-2 bg-[#3a3b3c] border-0 outline-none text-white pl-4"
+            className="h-10 rounded-full md:w-[90%] pl-2 bg-[#3a3b3c] border-0 outline-none text-white pl-4"
             type="text"
             placeholder="Search Facebook"
           />

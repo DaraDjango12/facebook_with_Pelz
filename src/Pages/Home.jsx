@@ -12,7 +12,7 @@ const Home = () => {
       <TopBar />
       <div className="flex justify-between pt-[70px]">
         <RightSideBar />
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 sm:pl-[100px]">
           <AddPost />
           <Timeline />
         </div>
