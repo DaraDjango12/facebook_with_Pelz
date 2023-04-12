@@ -10,7 +10,7 @@ import { Link } from "@mui/material";
 
 const LeftSideBar = () => {
   return (
-    <div className="px-6 text-white w-[100%] sm:w-[30%] bg-[#242526] hover:overflow-y-scroll pl-20">
+    <div className="px-6 text-white w-[100%] sm:w-[30%] bg-[#18191a] h-[] hover:overflow-y-scroll pl-20">
       <div className="flex flex-col gap-4">
         <p className="font-semibold text-xl text-white mt-4">Sponsored</p>
         <div className="flex gap-4 items-center">

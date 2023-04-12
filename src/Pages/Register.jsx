@@ -1,19 +1,22 @@
 import React from "react";
-import { AiOutlineClose } from "react-icons/ai";
-import { Link } from "@mui/material";
+// import { AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-router-dom";
+// import { Link } from "@mui/material";
 
 const Register = () => {
   return (
-    <div className="w-[100%] h-[100vh] flex justify-center items-center bg-[#f0f2f5]">
-      <div >
-        <h2 className=" text-center text-6xl lg:text-7xl text-blue-500 font-bold">facebook</h2>
+    <div className="w-[100%] flex justify-center items-center bg-[#f0f2f5] py-10">
+      <div>
+        <h2 className=" text-center text-4xl lg:text-5xl text-blue-500 font-bold">
+          facebook
+        </h2>
         <div className="border w-[300px] rounded-lg mt-2 sm:w-[450px] bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
           <div className="flex w-full p-4 justify-between">
             <div className="text-center w-full">
-              <p className="text-4xl font-bold">Create New Account</p>
-              <small>Its quick and easy</small>
+              <p className="text-3xl font-bold">Create New Account</p>
+              <small>It's quick and easy</small>
             </div>
-            <AiOutlineClose />
+            {/* <AiOutlineClose /> */}
           </div>
 
           <hr />
@@ -21,11 +24,11 @@ const Register = () => {
           <div className="px-4">
             <div className="flex gap-4 mt-2">
               <input
-                className="border w-full h-[2.8em] rounded-lg "
+                className="border w-full h-[2.8em] rounded-lg pl-2 outline-none"
                 placeholder="  Firstname"
               />
               <input
-                className="border w-full rounded-lg h-[2.8em]"
+                className="border w-full rounded-lg h-[2.8em] pl-2 outline-none"
                 placeholder="  Surname"
               />
             </div>
@@ -33,23 +36,23 @@ const Register = () => {
               <input
                 type="text"
                 placeholder="  Mobile Number or email address"
-                className="border w-full mt-2 h-[2.8em] rounded-lg"
+                className="border w-full mt-2 h-[2.8em] rounded-lg pl-4 outline-none"
               />
             </div>
             <div className="w-full ">
               <input
                 type="password"
                 placeholder="  New Password"
-                className="border w-full mt-2 h-[2.8em] rounded-lg"
+                className="border w-full mt-2 h-[2.8em] rounded-lg pl-4 outline-none"
               />
             </div>
 
             <div className="mt-2">
               <div>
-                <label className=" text-sm">Date of birth ?</label>
+                <label className="">Date of Birth</label>
                 <div>
                   <input
-                    className="rounded-lg w-full border p-2 h-[3em]"
+                    className="rounded-lg w-full border p-4 h-[3em]"
                     type="date"
                     placeholder="Select ur date of birth"
                   />
@@ -62,21 +65,21 @@ const Register = () => {
                   <div className="border flex justify-around h-[3em] w-full rounded-lg items-center">
                     <p>Female</p>
                     <div>
-                      <input type="Radio" value="Female" />
+                      <input type="Radio" name="Gender"/>
                     </div>
                   </div>
 
                   <div className="border flex justify-around h-[3em] rounded-lg items-center w-full">
                     <p>Male</p>
                     <div>
-                      <input type="radio" value="Male" />
+                      <input type="radio" name="Gender" />
                     </div>
                   </div>
 
                   <div className="border flex justify-around h-[3em] rounded-lg items-center w-full">
                     <p>Custom</p>
                     <div>
-                      <input type="radio" value="Custom" />
+                      <input type="radio" name="Gender" />
                     </div>
                   </div>
                 </div>
@@ -99,9 +102,11 @@ const Register = () => {
               </button>
             </div>
           </div>
-          <div className="my-2 text-center">
-            <Link to="#">Already have an account?</Link>
-          </div>
+          <Link to="/login">
+            <div className="my-2 text-center cursor-pointer hover:underline text-[#1877f2]">
+              Already have an account?
+            </div>
+          </Link>
         </div>
       </div>
     </div>

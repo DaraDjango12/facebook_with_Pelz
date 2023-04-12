@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -32,12 +33,14 @@ const Login = () => {
           <p className="text-center text-[#1877f2] cursor-pointer mb-2 hover:underline">Forgotten password?</p>
 
           <hr />
-
+          
+          <Link to="/register">
           <div className="w-full flex justify-center mt-2">
             <button className=" w-[200px] bg-[#42b72a] py-[12px] rounded-md text-white font-bold text-md hover:bg-[#006606]">
               Create new nccount
             </button>
           </div>
+          </Link>
         </div>
       </div>
     </div>

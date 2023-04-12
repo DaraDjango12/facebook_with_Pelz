@@ -5,9 +5,9 @@ import { BsEmojiSmileFill } from "react-icons/bs";
 
 const AddPost = () => {
   return (
-    <div className="bg-[#242526] h-[130px] flex flex-col justify-center items-center rounded-md ">
+    <div className="bg-[#242526] h-[130px] flex flex-col justify-center items-center rounded-md mt-6">
       {/* md:mx-[440px] */}
-      <div className="flex text-white">
+      <div className="flex text-white mx-4">
         <div
           style={{
             backgroundImage:
@@ -17,7 +17,7 @@ const AddPost = () => {
         ></div>
         <div className="w-[100%]">
           <input
-            className="w-[400px] cursor-pointer rounded-full h-[40px] bg-[#3a3b3c] px-4"
+            className="w-[400px] cursor-pointer rounded-full h-[40px] bg-[#3a3b3c] px-4 outline-none"
             placeholder="What's on your mind, Oluwapelumi?"
           />
         </div>
@@ -31,7 +31,7 @@ const AddPost = () => {
           {" "}
           <RiVideoUploadFill size={25} className="text-[#f02849]" /> Live video
         </span>
-        <span  className="flex items-center gap-2">
+        <span className="flex items-center gap-2">
           {" "}
           <IoMdPhotos size={25} className="text-[#45bd62]" /> Photo/video
         </span>

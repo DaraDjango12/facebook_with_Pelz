@@ -14,7 +14,7 @@ import { FaGlobeAsia } from "react-icons/fa";
 
 const Timeline = () => {
   return (
-    <div className="md:w-[43%] h-[475px] bg-[#3a3b3c] text-white rounded">
+    <div className="md:w-[100%] h-[475px] bg-[#242526] text-white rounded">
       <div className="flex justify-between items-center px-4 pt-4">
         {" "}
         <div className="flex gap-4">
@@ -81,7 +81,7 @@ const Timeline = () => {
         <p className="cursor-pointer">200 comments</p>
       </div>
 
-      <div className="mt-2 mx-4 bg-[#3a3b3c] h-[0.1px] "></div>
+      <div className="mt-2 mx-4 bg-[#3e4042] h-[0.1px] "></div>
 
       <div className="flex justify-between px-16 text-[#b0b3b8] mt-[8px] font-semibold">
         <span className="flex items-center gap-2 cursor-pointer">
@@ -95,7 +95,7 @@ const Timeline = () => {
         </span>
       </div>
 
-      <div className="mt-2 mx-4 bg-[#3a3b3c] h-[0.1px] mb-2"></div>
+      <div className="mt-2 mx-4 bg-[#3e4042] h-[0.1px] mb-2"></div>
 
       <div className="px-4 text-[#b0b3b8]">
         <span className="hover:underline cursor-pointer">
