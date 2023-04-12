@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 
 const RightSideBar = () => {
   return (
-    <div className="bg-[#18191a] w-[28.8%] h-[] hover:overflow-y-scroll">
-      <div className="w-[65%]">
+    <div className="bg-[#18191a] w-[20.8%] h-[1000px] hover:overflow-y-scroll hidden lg:block">
+      <div className="w-[100%]">
         <div className="text-white font-semibold flex pt-4 items-center mx-4">
           <div className="w-[25px] h-[25px] rounded-full">
             <FaUserFriends className="w-[25px] h-[25px]" size={35} />

@@ -15,7 +15,7 @@ import { FaGlobeAsia } from "react-icons/fa";
 
 const Timeline = () => {
   return (
-    <div className="md:w-[100%] h-[475px] bg-[#242526] text-white rounded">
+    <div className="md:w-[100%] h-[475px] bg-[#242526] text-white rounded ">
       <div className="flex justify-between items-center px-4 pt-4">
         {" "}
         <div className="flex gap-4">
