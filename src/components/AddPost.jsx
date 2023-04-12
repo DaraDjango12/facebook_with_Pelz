@@ -5,7 +5,8 @@ import { BsEmojiSmileFill } from "react-icons/bs";
 
 const AddPost = () => {
   return (
-    <div className="bg-[#242526] h-[130px] flex flex-col justify-center items-center rounded-md md:mx-[440px]">
+    <div className="bg-[#242526] h-[130px] flex flex-col justify-center items-center rounded-md ">
+      {/* md:mx-[440px] */}
       <div className="flex text-white">
         <div
           style={{
@@ -22,7 +23,8 @@ const AddPost = () => {
         </div>
       </div>
 
-      <hr className="w-[95%] m-4" />
+      <hr className="w-[95%] m-4 bg-[#3a3b3c]" />
+      {/* <div className="m-4 h-[1px] md:mt- md:mx-[px] mb- bg-[#3a3b3c]"></div> */}
 
       <div className="text-white flex justify-between gap-8">
         <span className="flex items-center gap-2 ">
